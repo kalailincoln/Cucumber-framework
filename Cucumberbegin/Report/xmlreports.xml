@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="12.38">
+    <testcase classname="Adactin Hotel booking" name="Verification of Login function" time="7.036">
+        <system-out><![CDATA[Given User is on the login page.............................................passed
+When User enters the valid username as "lincolnkalai".......................passed
+And User enters the valid password as "Kalai@lincoln123"....................passed
+And User clicks the login button............................................passed
+Then The page is navigated to Adactin search hotel page.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Adactin Hotel booking" name="Search hotel page functions" time="4.216">
+        <system-out><![CDATA[Given User is on the search hotel page......................................passed
+When Customer selects the location..........................................passed
+And Customer select the hotel type..........................................passed
+And Customer select room type...............................................passed
+And Customer selects number of rooms........................................passed
+And Customer selects the check-in and Check out date........................passed
+And Customer selects the Adults per room....................................passed
+And Customer selects the children per room..................................passed
+And Search button is clicked................................................passed
+Then The page is navigated to Select Hotel with details.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Adactin Hotel booking" name="select hotel page functions" time="0.641">
+        <system-out><![CDATA[Given User is on the select hotel page......................................passed
+When Customer clicks the select radio button................................passed
+And Customer clicks the continue button.....................................passed
+Then The Book a Hotel page is visible.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

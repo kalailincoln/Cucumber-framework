@@ -1,0 +1,67 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-08-05T11:40:17.708Z",
+    "line" : 2,
+    "name" : "To verify orangeHRM login functionality using valid credentials",
+    "description" : "",
+    "id" : "orangehrm-login-feature;to-verify-orangehrm-login-functionality-using-valid-credentials",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 7522712600,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "The login page of orangeHRM is opened",
+      "match" : {
+        "location" : "Datatablewithheader.Datatableheader.the_login_page_of_orange_hrm_is_opened()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 290000200,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "Client enters the ID  and Password as below",
+      "match" : {
+        "location" : "Datatablewithheader.Datatableheader.client_enters_the_id_and_password_as_below(io.cucumber.datatable.DataTable)"
+      },
+      "rows" : [ {
+        "cells" : [ "Username", "Password" ]
+      }, {
+        "cells" : [ "Admin", "admin123" ]
+      } ],
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 5297264800,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Clients cliks the login button",
+      "match" : {
+        "location" : "Datatablewithheader.Datatableheader.clients_cliks_the_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "The login page is navigated to home page",
+      "match" : {
+        "location" : "Datatablewithheader.Datatableheader.the_login_page_is_navigated_to_home_page()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "OrangeHRM login feature",
+  "description" : "",
+  "id" : "orangehrm-login-feature",
+  "keyword" : "Feature",
+  "uri" : "file:Featureadactin/datatableheader.feature",
+  "tags" : [ ]
+} ]
